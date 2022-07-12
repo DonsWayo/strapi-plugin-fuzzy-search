@@ -9,6 +9,7 @@ const buildDbQuery = (locale, model) => {
       ...(queryConstraints?.where && { ...queryConstraints.where }),
       ...(locale && { locale: locale }),
     },
+    populate: true
   };
 };
 
