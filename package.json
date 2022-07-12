@@ -21,7 +21,6 @@
     "fuzzysort": "^2.0.1"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^4.0.8",
     "@strapi/utils": "^4.0.8",
     "yup": "^0.32.9"
   },
